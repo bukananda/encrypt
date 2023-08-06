@@ -32,7 +32,7 @@ byte_object = key
 key_path = f'key.ssg'
 save_byte_object(byte_object, key_path)
 
-for root, dirs, files in os.walk("C:/Users/Lenovo/Desktop/python/Chess"):
+for root, dirs, files in os.walk("path a folder to encrypt all of the file in that folder"):
     for file in files:
         file_path = os.path.join(root, file)
         # Mengganti '\' dengan '/'
