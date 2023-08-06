@@ -34,7 +34,7 @@ def decrypt_file(encrypted_file_path, key):
 key_path = 'key.ssg'
 kuncinya = load_pickle_data(key_path)
 
-for root, dirs, files in os.walk("C:/Users/Lenovo/Desktop/python/Chess"):
+for root, dirs, files in os.walk("path to the folder to decrypt the file"):
     for file in files:
         file_path = os.path.join(root, file)
         # Mengganti '\' dengan '/'
